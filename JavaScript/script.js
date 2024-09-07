@@ -5,7 +5,7 @@ let addBtn = document.getElementById('addBtn');
 
 // Anfang des Programmes
 addBtn.addEventListener('click', function(){
-    let Status = checkInputUser(Notice);
+    let Status = checkInputUser(Notizen);
 
     switch(Status)
     {
